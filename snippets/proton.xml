@@ -25,6 +25,10 @@
           fetch="https://gitlab.pixelexperience.org/android"
           revision="twelve" />
 
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-19.1" />
+
   <!-- External -->
   <project name="android_external_noto-fonts" path="external/noto-fonts" remote="proton" groups="proton" />
   <project name="android_external_roboto-fonts" path="external/roboto-fonts" remote="proton" groups="proton" />
